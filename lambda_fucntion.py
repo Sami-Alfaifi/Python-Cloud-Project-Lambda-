@@ -5,7 +5,7 @@ import boto3
 db = mysql.connector.connect(
         host = "database-2.cpoqmy6e2sw9.eu-north-1.rds.amazonaws.com",
         user = "admin",
-        password = "Sa1421424mI",
+        password = "",
         database = "superstore"
 )
 
