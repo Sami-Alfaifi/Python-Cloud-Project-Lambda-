@@ -31,7 +31,7 @@ with open('result.json', 'w') as json_file:
 cursor.close()
 db.close()
 
-s3 = boto3.client('s3', aws_access_key_id='AKIA6GBMHQH5AXHAKZBS', aws_secret_acret_access_key='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')
+s3 = boto3.client('s3', aws_access_key_id='', aws_secret_acret_access_key='')
 
 s3.upload_file('result.json', 'samialfifi', 'input/result.json')
 
