@@ -6,10 +6,10 @@ bucket='samialfifi'
 folder='input'
 
 [db]
-user='admin'
+user=''
 database='superstore'
 port=3306
-host='database-2.cpoqmy6e2sw9.eu-north-1.rds.amazonaws.com'
+host='.amazonaws.com'
 schema='schema'
 
 [run]
