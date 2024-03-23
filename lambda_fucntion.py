@@ -3,7 +3,7 @@ import json
 import boto3
 
 db = mysql.connector.connect(
-        host = "database-2.cpoqmy6e2sw9.eu-north-1.rds.amazonaws.com",
+        host = ".amazonaws.com",
         user = "admin",
         password = "",
         database = "superstore"
